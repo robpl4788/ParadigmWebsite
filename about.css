@@ -1,0 +1,24 @@
+@import "base.css";
+
+a {
+    color: var(--red);
+}
+
+
+.page {
+    padding: 5vw;
+}
+.page img {
+    width: 50vw;
+    float: right;
+}
+
+.page h1 {
+    padding-top: 2vw;
+    font-size: 3vw;
+}
+
+.page p {
+    font-size: 30px;
+    margin: 1vw 0;
+}

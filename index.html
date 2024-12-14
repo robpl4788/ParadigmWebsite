@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Paradigm Machines</title>
+<link rel="stylesheet" href="index.css">
+
+
+<link rel="icon" type="png" href="images/logoNoBackground.png">
+
+</head>
+
+
+<body>
+
+<ul id="navBar">
+    <li class="left"><a href="index.html" class=""><img src="images/logo.png" alt="ParadigmLogo" id="hLogo"> </a></li>
+    <li class="right"><a href="about.html" class="text"><h1>ABOUT</h1></a></li>
+</ul>
+
+<h1 id="paradigm">PARADIGM</h1>
+<h3 id="machines">MACHINES</h3>
+<h5 id="motto">CONSTANT INNOVATION</h5>
+
+
+<div class="slideshow">
+
+<div class="gallery">
+    <div class="slide">
+        <img src="images/BCDWasp.png" alt="W.A.S.P." class="slide-img">
+        <h3>W.A.S.P. Drivebase</h3>
+    </div>
+    <div class="slide">
+        <img src="images/Onslaught V1.png" alt="V1 Onslaught CAD" class="slide-img">
+        <h3>V1 Onslaught CAD</h3>
+    </div>    <div class="slide">
+        <img src="images/Horizontal Leg Test v3.png" alt="A test leg for Onslaught" class="slide-img">
+        <h3>ONSLAUGHT test leg</h3>
+    </div>
+</div>
+
+<img src="images/leftArrow.png" alt="Prev" onclick="prevSlide()" class="prev">
+<img src="images/rightArrow.png" alt="Next" onclick="nextSlide()" class="next">
+<div class="thumbnails">
+    <img src="images/BCDWasp.png" alt="W.A.S.P." onclick="setSlide(0)" class="thumbnail">
+    <img src="images/Onslaught V1.png" alt="V1 Onslaught CAD" onclick="setSlide(1)" class="thumbnail">
+    <img src="images/Horizontal Leg Test v3.png" alt="A test leg for Onslaught" onclick="setSlide(2)" class="thumbnail">
+</div>
+</div>
+
+<script src="slideshow.js"></script>
+
+</body>
+</html>

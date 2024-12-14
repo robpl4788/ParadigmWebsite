@@ -1,0 +1,38 @@
+@import "base.css";
+
+body {
+    background-color: var(--darkPurple);
+    overflow-x: hidden;
+}
+
+#paradigm {
+    font-size: 7vw;
+    text-align: center;
+    letter-spacing: 5vw;
+    margin: 3vh 0;
+    margin-left: 2vw;
+    text-shadow: .4vw .4vw 0vw var(--grey) ;
+    width: 100vw;
+}
+
+#machines {
+    font-size: 5vw;
+    text-align: center;
+    letter-spacing: 4vw;
+    margin: 3vh 0;
+    margin-left: 1.6vw;
+    text-shadow: .3vw .3vw 0vw var(--grey);
+    width: 100vw;
+
+}
+
+#motto {
+    font-size: max(2.5vw, 10px);
+    text-align: center;
+    letter-spacing: 2vw;
+    margin: 5vw;
+    text-shadow: .2vw .2vw 0vw var(--grey);
+
+}
+
+
