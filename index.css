@@ -11,7 +11,7 @@ body {
     letter-spacing: 5vw;
     margin: 3vh 0;
     margin-left: 2vw;
-    text-shadow: .4vw .4vw 0vw var(--grey) ;
+    text-shadow: .3vw .3vw 0vw var(--grey) ;
     width: 100vw;
 }
 

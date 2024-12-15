@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gugi&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 :root {
     --darkPurple: #230041;
@@ -23,7 +23,7 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-    font-family: "Audiowide", sans-serif;
+    font-family: "Gugi", sans-serif;
 }
 
 p, form label {
