@@ -13,12 +13,11 @@
 *{
     margin: 0;
     padding: 0;
-
     color: var(--white);
 }
 
 body {
-    background-color: var(--purple);
+    background-color: var(--darkPurple);
     overflow-x: hidden;
 }
 
@@ -49,37 +48,6 @@ p, form label {
     float: right;
 }
 
-.dropdown {
-    display: inline-block;
-}
-
-.dropdown-content {
-    list-style-type: none;
-    display: none;
-    position: absolute;
-    z-index: 1;
-}
-
-
-.dropdown-content a {
-    display: block;
-    text-decoration: none;
-    background-color: var(--purple);
-    padding: 16px;
-    border-style: none solid solid;
-    border-color: var(--darkPurple);
-    box-shadow: 0 10px 10px var(--darkPurple);
-}
-
-.dropdown-content li a:hover, #dropdown-active {
-    background-color: var(--black);
-}
-
-
-.dropdown:hover .dropdown-content{
-    display: block;
-}
-
 #hLogo {
     height: var(--headerHeight);
     margin: 0;
@@ -93,42 +61,18 @@ p, form label {
     padding: 17px;
 }
 
-#navBar li .text:hover, .dropdown:hover .dropbtn, .active {
-    background-color: var(--grey);
-}
+#navBar li .text h1{
 
-#navBar li .text:hover h1, .dropdown-content li a:hover h2 {
-    color: var(--blue);
-}
-
-#navBar li .text:active h1, .dropdown-content li a:active h2, .active a h1, #dropdown-active h2 {
-    color: var(--red);
+    color: var(--white);
+    transition-property: color;
+    transition-duration: .3s;
 }
 
 
-/* Button */
-.button h4{
-    font-size: 2.5vw;
-    padding: 1vw;
-    border-radius: 3vw;
-    background-color: var(--red);
-    width: 20vw;
-    text-align: center;
-    box-shadow: 0 0 3vw var(--black);
-}
-
-.button {
-    text-decoration: none;
-}
-
-.button:hover h4{
-    background-color: var(--orange);
-    color: var(--blue);
-}
-
-.button:active h4{
-    background-color: var(--blue);
-    color: var(--red);
+#navBar li .text:hover h1 {
+    color: var(--purple);
+    transition-property: color;
+    transition-duration: .3s;
 }
 
 
@@ -193,7 +137,7 @@ p, form label {
 }
 
 .prev:hover, .next:hover {
-    background-color: #eee;
+    background-color: var(--white);
     border-radius: 50%;
 
 }
